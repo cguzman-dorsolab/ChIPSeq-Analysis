@@ -2,6 +2,9 @@
 Command line documentation provided by Jonathan Reeder (Please see GENOMICS Documentation)
 
 ###Calling Peaks
+
+Please make sure your directory is set to ~/code/snRNP/tools or else command line functions will not work. This can be done via the 'cd' command.
+
 1. *macs2 -t markoutputfromstep1.sam -c markcontroloutputfromstep1.sam -f SAM -g hs -n outputname -B*
     1. The -n outputname tells macs2 what you want the output files to be named. This can be whatever you want. Files will be output in whatever directory you;re in when you run this command.
     2. -B parameter tells macs to also build the .bdg files that can be used for making heatmaps or metagene profiles or viewing in IGV. If you only need to call peaks then do not use this parameter to speed up peak calling significantly.
