@@ -32,7 +32,7 @@ Documentation for CHIP SEQ ANALYSIS
 
 ### Peak calling  
 
-It is important to have controls for your ChIP-seq experiments. A DNA input control (no antibody is applied) is prefered.
+It is important to have controls for your ChIP-seq experiments. A DNA input control (no antibody is applied) is preferred.
 The IgG control is also fine, but because so little DNA is there, you might get many duplicated reads due to PCR artifact.
 
 1. The most popular peak caller by Tao Liu: [MACS2](https://github.com/taoliu/MACS/).
