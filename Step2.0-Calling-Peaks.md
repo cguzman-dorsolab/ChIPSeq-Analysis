@@ -3,7 +3,7 @@ Command line documentation provided by Jonathan Reeder (Please see GENOMICS Docu
 
 ###Calling Peaks
 
-Please make sure your directory is set to ~/code/snRNP/tools or else command line functions will not work. This can be done via the 'cd' command.
+Please make sure your directory is set to ~/code/snRNP/tools or else command line functions will not work. This can be done via the 'cd' command in terminal.
 
 1. *macs2 -t markoutputfromstep1.sam -c markcontroloutputfromstep1.sam -f SAM -g hs -n outputname -B*
     1. The -n outputname tells macs2 what you want the output files to be named. This can be whatever you want. Files will be output in whatever directory you;re in when you run this command.
