@@ -1,7 +1,7 @@
-# Step 2 - Calling Peaks via MACS2
+#Step 2 - Calling Peaks via MACS2
 Command line documentation provided by Jonathan Reeder (Please see GENOMICS Documentation)
 
-### Calling Peaks
+###Calling Peaks
 1. macs2 -t markoutputfromstep1.sam -c markcontroloutputfromstep1.sam -f SAM -g hs -n outputname -B
     a. The -n outputname tells macs2 what ayou want the output files to be named. This can be whatever you want. Files will be output in whatever directory you;re in when you run this command.
     b. -B parameter tells macs to also build the .bdg files that can be used for making heatmaps or metagene profiles or viewing in IGV. If you only need to call peaks then do not use this parameter to speed up peak calling significantly.
