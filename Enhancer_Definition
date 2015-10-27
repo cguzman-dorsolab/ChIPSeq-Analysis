@@ -1,0 +1,10 @@
+### It is important to define what exactly an enhancer is before we continue trying to determine whether there KAP1 and 7SK snRNP is truly enriched at enhancers or not.
+
+We know that enhancers typically contain several histone marks and (paused?) Pol II. (Kim, et al. 2015) These include:
+1) H3K4me1
+2) H3K27Ac
+3) Pol II
+
+Our current definition is focusing on:
+1) H3K4me1
+2) Pol II
