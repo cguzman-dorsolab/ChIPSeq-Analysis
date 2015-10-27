@@ -15,3 +15,5 @@ Project Goal: A previous paper found 7SK nRNP at enhancers. Therefore, the quest
     e) H3K4me1 + KAP1 without H3K4me3 = 176  p value = 1
     
   
+  The next step is to begin to define our definition of enhancers and systematically verify it. We start by looking at Pol II summits greater than -2500 and +2500.
+  
