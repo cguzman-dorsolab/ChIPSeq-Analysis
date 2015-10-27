@@ -1,0 +1,19 @@
+### This journal is updated at the end of every work day in order to ensure that data analysis steps taken are properly documented and reproducible.
+
+10-27-2015
+
+Project Goal: A previous paper found 7SK nRNP at enhancers. Therefore, the question there is if KAP1 and 7SK snRNP is truly enriched at enhancers or not. We first need to define enhancers in internecine regions this is why you were looking for K4me1 internecine sites.
+
+  A definition for enhancers must first be created before any serious analysis can take place. A GitHub file was created that compiles are currently known enhancer definitions based on literature, and the one that we are currently constructing. To this end we began by finding co-occupancy using a modified ./findCooccupancy_KAP1.py script that held the following parameters:
+  1) KAP1 summits were found within -250 +1000 of the TSS.
+  2) Using these discovered KAP1 summits as a "tether" we then determined overlapped regions of H3K4me1 and H3K4me3 in a region of -250 +250 from these KAP1 summits.
+  3) In order to test for enrichment of these sites bedtools intersect with a -v argument was used to determine overlaps of KAP1 + H3K4me1 without H3K4me3 and KAP1 + H3K4me3 without H3K4me1 respectively. The numbers were as followed:
+    a) H3K4me3 - 11,750
+    b) H3K4me1 - 2,237
+    c) KAP1 - 15,114
+    d) H3K4me3 + KAP1 without H3K4me1 = 9,689 p value = 0
+    e) H3K4me1 + KAP1 without H3K4me3 = 176  p value = 1
+    
+  
+  The next step is to begin to define our definition of enhancers and systematically verify it. We start by looking at Pol II summits greater than -2500 and +2500 .
+  
