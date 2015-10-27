@@ -2,7 +2,7 @@ phyper (q=5240, m=16112, k=7730,n= 30080, lower.tail = FALSE)
 
 phyper (q, m, n, k, lower.tail=F)
 
-where 
+# where:
 ## q is the number of genes in the overlap -1 (the output from the overlap script for a query) 
 ## m= the number of genes in category 1 
 ## k= the number of genes in category 2
