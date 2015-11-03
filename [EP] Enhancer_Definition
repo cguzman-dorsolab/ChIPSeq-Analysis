@@ -8,3 +8,5 @@ We know that enhancers typically contain several histone marks and (paused?) Pol
 Our current definition is focusing on:
 1) H3K4me1
 2) Pol II
+3) H3K27Ac
+4) Little or no H3K4me3
