@@ -1,0 +1,8 @@
+Lab member wants to find overlap between RNA-Seq data from https://www.encodeproject.org/experiments/ENCSR000CWM/ and Chip-Seq data obtained in the lab in exons, introns, and exon-intron junctions. She then wants me to conduct motif analysis on these overlapping sites.
+
+1) Download exon, intron, exon-intron junction bed file from UCSC, and trim appropriately. # Referred to as DB
+2) Download RNA-Seq data from https://www.encodeproject.org/experiments/ENCSR000CWM/.
+3) Overlap RNA-Seq data to DB using bedtools. #Referred to as Set 1
+4) Overlap Chip-Seq data to DB using bedtools. #Referred to as Set 2
+5) Overlap Set 1 + Set 2 using bedtools. # Overlap window = ?
+6) Conduct motif analysis using MEME.
